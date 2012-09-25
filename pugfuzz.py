@@ -18,10 +18,10 @@ timeout = 5
 fuzzpercent = float(0.05) # percentage of file size bytes to fuzz
 #formats = "" # current base file format
 basefilename = list() # current base file name
-basefiledir = "C:\\Python24\\jlpy\\bases" # directory for base files to fuzz
-fuzzfiledir = "C:\\Python24\\jlpy\\fuzzes" # directory for temporary fuzzed base files
+basefiledir = "C:\\Python24\\bases" # directory for base files to fuzz
+fuzzfiledir = "C:\\Python24\\fuzzes" # directory for temporary fuzzed base files
 #fuzzfilename = list() # current fuzz file name
-programname = "C:\\Program Files\\Tencent\\QQPlayer\\QQPlayer.exe" #change program name
+programname = "" #change program name
 crashname = "c:\\crashes\\crash"
 crashsynop = "c:\\crashes\\crash_synop"
 
